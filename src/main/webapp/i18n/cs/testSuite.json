@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Vytvořit Test Suite",
+                "createOrEditLabel": "Vytvořit nebo upravit Test Suite",
+                "search": "Vyhledat Test Suite"
+            },
+            "created": "Byl vytvořen potomek entity Test Suite s identifikátorem {{ param }}",
+            "updated": "Potomek entity Test Suite s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Test Suite s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Test Suite {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Δημιουργήστε ένα νέο Specification",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Specification",
+                "search": "Αναζήτηση για Specification"
+            },
+            "created": "Ένα νέο Specification έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Specification έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Specification έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Specification {{ id }};"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Skapa en ny Meta Data",
+                "createOrEditLabel": "Skapa eller ändra en Meta Data",
+                "search": "Sök efter Meta Data"
+            },
+            "created": "En ny Meta Data är skapad med id {{ param }}",
+            "updated": "En Meta Data är uppdaterad med id  {{ param }}",
+            "deleted": "En Meta Data är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Meta Data {{ id }}?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

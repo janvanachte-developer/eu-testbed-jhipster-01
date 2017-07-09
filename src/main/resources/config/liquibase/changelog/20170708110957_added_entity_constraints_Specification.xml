@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Specification.
+    -->
+    <changeSet id="20170708110957-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="domain_id"
+                                 baseTableName="specification"
+                                 constraintName="fk_specification_domain_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="domain"/>
+
+        <addForeignKeyConstraint baseColumnNames="meta_data_id"
+                                 baseTableName="specification"
+                                 constraintName="fk_specification_meta_data_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="meta_data"/>
+
+    </changeSet>
+</databaseChangeLog>

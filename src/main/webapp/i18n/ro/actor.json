@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Creeare o nouă entitate Actor",
+                "createOrEditLabel": "Creeare sau editare Actor",
+                "search": "Căutare după Actor"
+            },
+            "created": "A fost creată o nouă entitate Actor cu identificatorul {{ param }}",
+            "updated": "Actor cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Actor cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Actor {{ id }}?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

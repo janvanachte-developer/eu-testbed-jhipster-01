@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "domain" : {
+            "home": {
+                "title": "Domains",
+                "createLabel": "Genera un nuovo Domain",
+                "createOrEditLabel": "Genera o modifica un Domain",
+                "search": "Cerca Domain"
+            },
+            "created": "&Egrave; stato generato un nuovo Domain con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Domain identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Domain con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Domain {{ id }}?"
+            },
+            "detail": {
+                "title": "Domain"
+            },
+            "metaData": "Meta Data",
+            "specifications": "Specifications"
+        }
+    }
+}

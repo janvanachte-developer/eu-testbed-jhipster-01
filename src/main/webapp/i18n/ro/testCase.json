@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Creeare o nouă entitate Test Case",
+                "createOrEditLabel": "Creeare sau editare Test Case",
+                "search": "Căutare după Test Case"
+            },
+            "created": "A fost creată o nouă entitate Test Case cu identificatorul {{ param }}",
+            "updated": "Test Case cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Test Case cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Test Case {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

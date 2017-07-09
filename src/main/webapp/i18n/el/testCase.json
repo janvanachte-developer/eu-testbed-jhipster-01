@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Δημιουργήστε ένα νέο Test Case",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Test Case",
+                "search": "Αναζήτηση για Test Case"
+            },
+            "created": "Ένα νέο Test Case έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Test Case έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Test Case έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Test Case {{ id }};"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Maak een nieuwe Test Case",
+                "createOrEditLabel": "Maak of wijzig een Test Case",
+                "search": "Search for Test Case"
+            },
+            "created": "A new Test Case is created with identifier {{ param }}",
+            "updated": "A Test Case is updated with identifier {{ param }}",
+            "deleted": "A Test Case is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bent u zeker dat u Test Case {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

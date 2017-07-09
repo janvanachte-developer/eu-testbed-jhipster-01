@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Lisa uus Test Case",
+                "createOrEditLabel": "Lisa või muuda Test Case",
+                "search": "Otsi Test Case"
+            },
+            "created": "Uus Test Case on loodud identifikaatoriga {{ param }}",
+            "updated": "Test Case identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Test Case identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Test Case {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

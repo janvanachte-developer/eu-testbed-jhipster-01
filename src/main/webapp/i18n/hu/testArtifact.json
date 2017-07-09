@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "TestArtifacts",
+                "createLabel": "Egy új Test Artifact létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Test Artifactt",
+                "search": "Test Artifact keresése"
+            },
+            "created": "Egy új Test Artifact lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Test Artifact módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Test Artifact törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Test Artifactt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

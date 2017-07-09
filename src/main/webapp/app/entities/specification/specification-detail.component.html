@@ -1,0 +1,33 @@
+
+<div *ngIf="specification">
+    <h2><span jhiTranslate="testbedApp.specification.detail.title">Specification</span> {{specification.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.specification.domain">Domain</span></dt>
+        <dd>
+            <div *ngIf="specification.domainId">
+                <a [routerLink]="['/domain', specification.domainId]">{{specification.domainId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.specification.metaData">Meta Data</span></dt>
+        <dd>
+            <div *ngIf="specification.metaDataId">
+                <a [routerLink]="['/meta-data', specification.metaDataId]">{{specification.metaDataId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'specification/'+ specification.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

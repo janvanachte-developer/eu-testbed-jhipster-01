@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Creeare o nouă entitate Test Suite",
+                "createOrEditLabel": "Creeare sau editare Test Suite",
+                "search": "Căutare după Test Suite"
+            },
+            "created": "A fost creată o nouă entitate Test Suite cu identificatorul {{ param }}",
+            "updated": "Test Suite cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Test Suite cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Test Suite {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

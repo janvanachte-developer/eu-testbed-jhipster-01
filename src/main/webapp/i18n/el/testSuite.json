@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Δημιουργήστε ένα νέο Test Suite",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Test Suite",
+                "search": "Αναζήτηση για Test Suite"
+            },
+            "created": "Ένα νέο Test Suite έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Test Suite έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Test Suite έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Test Suite {{ id }};"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

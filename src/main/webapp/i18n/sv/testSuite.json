@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Skapa en ny Test Suite",
+                "createOrEditLabel": "Skapa eller ändra en Test Suite",
+                "search": "Sök efter Test Suite"
+            },
+            "created": "En ny Test Suite är skapad med id {{ param }}",
+            "updated": "En Test Suite är uppdaterad med id  {{ param }}",
+            "deleted": "En Test Suite är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Test Suite {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

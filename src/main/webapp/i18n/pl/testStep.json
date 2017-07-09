@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Dodaj Test Step",
+                "createOrEditLabel": "Dodaj lub edytuj: Test Step",
+                "search": "Szukaj Test Step"
+            },
+            "created": "Utworzono nowy Test Step z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono Test Step z identyfikatorem {{ param }}",
+            "deleted": "Usunięto Test Step z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Crear nuevo Specification",
+                "createOrEditLabel": "Crear o editar Specification",
+                "search": "Search for Specification"
+            },
+            "created": "Un nuevo Specification ha sido creado con el identificador {{ param }}",
+            "updated": "Un Specification ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Specification ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Specification {{ id }}?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

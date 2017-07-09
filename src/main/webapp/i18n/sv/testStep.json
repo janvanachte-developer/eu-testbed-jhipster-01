@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Skapa en ny Test Step",
+                "createOrEditLabel": "Skapa eller ändra en Test Step",
+                "search": "Sök efter Test Step"
+            },
+            "created": "En ny Test Step är skapad med id {{ param }}",
+            "updated": "En Test Step är uppdaterad med id  {{ param }}",
+            "deleted": "En Test Step är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

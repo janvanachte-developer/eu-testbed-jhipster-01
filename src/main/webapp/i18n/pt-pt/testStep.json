@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Criar um(a) novo(a) Test Step",
+                "createOrEditLabel": "Criar ou editar um(a) Test Step",
+                "search": "Search for Test Step"
+            },
+            "created": "A new Test Step is created with identifier {{ param }}",
+            "updated": "A Test Step is updated with identifier {{ param }}",
+            "deleted": "A Test Step is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Tem a certeza que pretende eliminar o(a) Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

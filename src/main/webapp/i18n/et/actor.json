@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Lisa uus Actor",
+                "createOrEditLabel": "Lisa või muuda Actor",
+                "search": "Otsi Actor"
+            },
+            "created": "Uus Actor on loodud identifikaatoriga {{ param }}",
+            "updated": "Actor identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Actor identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Actor {{ id }}?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

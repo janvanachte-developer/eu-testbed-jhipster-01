@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "Test Artifacts",
+                "createLabel": "Lisa uus Test Artifact",
+                "createOrEditLabel": "Lisa või muuda Test Artifact",
+                "search": "Otsi Test Artifact"
+            },
+            "created": "Uus Test Artifact on loodud identifikaatoriga {{ param }}",
+            "updated": "Test Artifact identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Test Artifact identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Test Artifact {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

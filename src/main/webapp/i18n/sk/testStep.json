@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Pridať Test Step",
+                "createOrEditLabel": "Pridať alebo upraviť Test Step",
+                "search": "Vyhľadať Test Step"
+            },
+            "created": "Bol vytvorený potomok entity Test Step s identifikátorom {{ param }}",
+            "updated": "Potomok entity Test Step s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Test Step s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

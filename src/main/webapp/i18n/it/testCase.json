@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "TestCases",
+                "createLabel": "Genera un nuovo Test Case",
+                "createOrEditLabel": "Genera o modifica un Test Case",
+                "search": "Cerca Test Case"
+            },
+            "created": "&Egrave; stato generato un nuovo Test Case con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Test Case identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Test Case con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Test Case {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

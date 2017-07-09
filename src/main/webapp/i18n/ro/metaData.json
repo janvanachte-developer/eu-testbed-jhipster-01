@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Creeare o nouă entitate Meta Data",
+                "createOrEditLabel": "Creeare sau editare Meta Data",
+                "search": "Căutare după Meta Data"
+            },
+            "created": "A fost creată o nouă entitate Meta Data cu identificatorul {{ param }}",
+            "updated": "Meta Data cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Meta Data cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Meta Data {{ id }}?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

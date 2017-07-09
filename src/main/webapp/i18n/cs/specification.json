@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Vytvořit Specification",
+                "createOrEditLabel": "Vytvořit nebo upravit Specification",
+                "search": "Vyhledat Specification"
+            },
+            "created": "Byl vytvořen potomek entity Specification s identifikátorem {{ param }}",
+            "updated": "Potomek entity Specification s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Specification s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Specification {{ id }}?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

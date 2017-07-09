@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "Test Artifacts",
+                "createLabel": "Pridať Test Artifact",
+                "createOrEditLabel": "Pridať alebo upraviť Test Artifact",
+                "search": "Vyhľadať Test Artifact"
+            },
+            "created": "Bol vytvorený potomok entity Test Artifact s identifikátorom {{ param }}",
+            "updated": "Potomok entity Test Artifact s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Test Artifact s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Test Artifact {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

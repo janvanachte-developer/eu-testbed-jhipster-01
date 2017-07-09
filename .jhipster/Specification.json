@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "domain",
+            "otherEntityName": "domain",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "metaData",
+            "otherEntityName": "metaData",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "specification"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "testSuites",
+            "otherEntityName": "testSuite",
+            "otherEntityRelationshipName": "specification"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20170708110957",
+    "entityTableName": "specification",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "searchEngine": "elasticsearch"
+}

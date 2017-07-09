@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "TestSteps",
+                "createLabel": "Egy új Test Step létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Test Stept",
+                "search": "Test Step keresése"
+            },
+            "created": "Egy új Test Step lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Test Step módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Test Step törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Test Stept {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

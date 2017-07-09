@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "domain" : {
+            "home": {
+                "title": "Domains",
+                "createLabel": "Δημιουργήστε ένα νέο Domain",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Domain",
+                "search": "Αναζήτηση για Domain"
+            },
+            "created": "Ένα νέο Domain έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Domain έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Domain έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Domain {{ id }};"
+            },
+            "detail": {
+                "title": "Domain"
+            },
+            "metaData": "Meta Data",
+            "specifications": "Specifications"
+        }
+    }
+}

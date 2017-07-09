@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Vytvořit Actor",
+                "createOrEditLabel": "Vytvořit nebo upravit Actor",
+                "search": "Vyhledat Actor"
+            },
+            "created": "Byl vytvořen potomek entity Actor s identifikátorem {{ param }}",
+            "updated": "Potomek entity Actor s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Actor s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Actor {{ id }}?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

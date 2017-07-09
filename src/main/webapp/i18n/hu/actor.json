@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Egy új Actor létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Actort",
+                "search": "Actor keresése"
+            },
+            "created": "Egy új Actor lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Actor módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Actor törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Actort {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

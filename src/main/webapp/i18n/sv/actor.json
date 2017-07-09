@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Skapa en ny Actor",
+                "createOrEditLabel": "Skapa eller ändra en Actor",
+                "search": "Sök efter Actor"
+            },
+            "created": "En ny Actor är skapad med id {{ param }}",
+            "updated": "En Actor är uppdaterad med id  {{ param }}",
+            "deleted": "En Actor är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Actor {{ id }}?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Meta Data erstellen",
+                "createOrEditLabel": "Meta Data erstellen oder bearbeiten",
+                "search": "Suche nach Meta Data"
+            },
+            "created": "Meta Data erstellt mit ID {{ param }}",
+            "updated": "Meta Data aktualisiert mit ID {{ param }}",
+            "deleted": "Meta Data gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Meta Data {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

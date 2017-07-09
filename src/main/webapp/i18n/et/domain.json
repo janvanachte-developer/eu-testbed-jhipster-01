@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "domain" : {
+            "home": {
+                "title": "Domains",
+                "createLabel": "Lisa uus Domain",
+                "createOrEditLabel": "Lisa või muuda Domain",
+                "search": "Otsi Domain"
+            },
+            "created": "Uus Domain on loodud identifikaatoriga {{ param }}",
+            "updated": "Domain identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Domain identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Domain {{ id }}?"
+            },
+            "detail": {
+                "title": "Domain"
+            },
+            "metaData": "Meta Data",
+            "specifications": "Specifications"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+
+<div *ngIf="actor">
+    <h2><span jhiTranslate="testbedApp.actor.detail.title">Actor</span> {{actor.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.actor.name">Name</span></dt>
+        <dd>
+            <span>{{actor.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.actor.description">Description</span></dt>
+        <dd>
+            <span>{{actor.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.actor.endpoint">Endpoint</span></dt>
+        <dd>
+            <span>{{actor.endpoint}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.actor.testSuite">Test Suite</span></dt>
+        <dd>
+            <div *ngIf="actor.testSuiteId">
+                <a [routerLink]="['/test-suite', actor.testSuiteId]">{{actor.testSuiteId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'actor/'+ actor.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

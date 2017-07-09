@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "MetaData",
+                "createLabel": "Egy új Meta Data létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Meta Datat",
+                "search": "Meta Data keresése"
+            },
+            "created": "Egy új Meta Data lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Meta Data módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Meta Data törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Meta Datat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

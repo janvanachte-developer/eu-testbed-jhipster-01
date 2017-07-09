@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Test Suite erstellen",
+                "createOrEditLabel": "Test Suite erstellen oder bearbeiten",
+                "search": "Suche nach Test Suite"
+            },
+            "created": "Test Suite erstellt mit ID {{ param }}",
+            "updated": "Test Suite aktualisiert mit ID {{ param }}",
+            "deleted": "Test Suite gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Test Suite {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

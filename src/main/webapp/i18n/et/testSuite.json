@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "Test Suites",
+                "createLabel": "Lisa uus Test Suite",
+                "createOrEditLabel": "Lisa või muuda Test Suite",
+                "search": "Otsi Test Suite"
+            },
+            "created": "Uus Test Suite on loodud identifikaatoriga {{ param }}",
+            "updated": "Test Suite identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Test Suite identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Test Suite {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

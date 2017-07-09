@@ -1,0 +1,45 @@
+
+<div *ngIf="metaData">
+    <h2><span jhiTranslate="testbedApp.metaData.detail.title">Meta Data</span> {{metaData.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.metaData.name">Name</span></dt>
+        <dd>
+            <span>{{metaData.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.metaData.version">Version</span></dt>
+        <dd>
+            <span>{{metaData.version}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.metaData.authors">Authors</span></dt>
+        <dd>
+            <span>{{metaData.authors}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.metaData.description">Description</span></dt>
+        <dd>
+            <span>{{metaData.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.metaData.published">Published</span></dt>
+        <dd>
+            <span>{{metaData.published | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.metaData.lastModified">Last Modified</span></dt>
+        <dd>
+            <span>{{metaData.lastModified | date:'medium'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'meta-data/'+ metaData.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

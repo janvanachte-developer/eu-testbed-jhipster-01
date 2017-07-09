@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Skapa en ny Specification",
+                "createOrEditLabel": "Skapa eller ändra en Specification",
+                "search": "Sök efter Specification"
+            },
+            "created": "En ny Specification är skapad med id {{ param }}",
+            "updated": "En Specification är uppdaterad med id  {{ param }}",
+            "deleted": "En Specification är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Specification {{ id }}?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

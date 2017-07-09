@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Skapa en ny Test Case",
+                "createOrEditLabel": "Skapa eller ändra en Test Case",
+                "search": "Sök efter Test Case"
+            },
+            "created": "En ny Test Case är skapad med id {{ param }}",
+            "updated": "En Test Case är uppdaterad med id  {{ param }}",
+            "deleted": "En Test Case är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Test Case {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

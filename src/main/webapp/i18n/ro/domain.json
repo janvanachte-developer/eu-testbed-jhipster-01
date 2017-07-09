@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "domain" : {
+            "home": {
+                "title": "Domains",
+                "createLabel": "Creeare o nouă entitate Domain",
+                "createOrEditLabel": "Creeare sau editare Domain",
+                "search": "Căutare după Domain"
+            },
+            "created": "A fost creată o nouă entitate Domain cu identificatorul {{ param }}",
+            "updated": "Domain cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Domain cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Domain {{ id }}?"
+            },
+            "detail": {
+                "title": "Domain"
+            },
+            "metaData": "Meta Data",
+            "specifications": "Specifications"
+        }
+    }
+}

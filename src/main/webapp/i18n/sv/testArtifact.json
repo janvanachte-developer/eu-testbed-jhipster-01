@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "Test Artifacts",
+                "createLabel": "Skapa en ny Test Artifact",
+                "createOrEditLabel": "Skapa eller ändra en Test Artifact",
+                "search": "Sök efter Test Artifact"
+            },
+            "created": "En ny Test Artifact är skapad med id {{ param }}",
+            "updated": "En Test Artifact är uppdaterad med id  {{ param }}",
+            "deleted": "En Test Artifact är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Test Artifact {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "TestArtifacts",
+                "createLabel": "Créer un nouveau Test Artifact",
+                "createOrEditLabel": "Créer ou éditer un Test Artifact",
+                "search": "Recherche pour Test Artifact"
+            },
+            "created": "Un nouveau Test Artifact a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Test Artifact avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Test Artifact avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Test Artifact {{ id }} ?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+
+<div *ngIf="testSuite">
+    <h2><span jhiTranslate="testbedApp.testSuite.detail.title">Test Suite</span> {{testSuite.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.testSuite.specification">Specification</span></dt>
+        <dd>
+            <div *ngIf="testSuite.specificationId">
+                <a [routerLink]="['/specification', testSuite.specificationId]">{{testSuite.specificationId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testSuite.metaData">Meta Data</span></dt>
+        <dd>
+            <div *ngIf="testSuite.metaDataId">
+                <a [routerLink]="['/meta-data', testSuite.metaDataId]">{{testSuite.metaDataId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'test-suite/'+ testSuite.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

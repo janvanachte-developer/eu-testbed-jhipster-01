@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Δημιουργήστε ένα νέο Actor",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Actor",
+                "search": "Αναζήτηση για Actor"
+            },
+            "created": "Ένα νέο Actor έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Actor έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Actor έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Actor {{ id }};"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

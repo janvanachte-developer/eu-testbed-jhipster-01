@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "metaData",
+            "otherEntityName": "metaData",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "domain"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "specifications",
+            "otherEntityName": "specification",
+            "otherEntityRelationshipName": "domain"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20170708110956",
+    "entityTableName": "domain",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "searchEngine": "elasticsearch"
+}

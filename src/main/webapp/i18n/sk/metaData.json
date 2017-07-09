@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Pridať Meta Data",
+                "createOrEditLabel": "Pridať alebo upraviť Meta Data",
+                "search": "Vyhľadať Meta Data"
+            },
+            "created": "Bol vytvorený potomok entity Meta Data s identifikátorom {{ param }}",
+            "updated": "Potomok entity Meta Data s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Meta Data s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Meta Data {{ id }}?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

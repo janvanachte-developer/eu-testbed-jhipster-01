@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Creeare o nouă entitate Specification",
+                "createOrEditLabel": "Creeare sau editare Specification",
+                "search": "Căutare după Specification"
+            },
+            "created": "A fost creată o nouă entitate Specification cu identificatorul {{ param }}",
+            "updated": "Specification cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Specification cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Specification {{ id }}?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

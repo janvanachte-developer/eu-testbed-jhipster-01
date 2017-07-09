@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Δημιουργήστε ένα νέο Test Step",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Test Step",
+                "search": "Αναζήτηση για Test Step"
+            },
+            "created": "Ένα νέο Test Step έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Test Step έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Test Step έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Test Step {{ id }};"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

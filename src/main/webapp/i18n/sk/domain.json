@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "domain" : {
+            "home": {
+                "title": "Domains",
+                "createLabel": "Pridať Domain",
+                "createOrEditLabel": "Pridať alebo upraviť Domain",
+                "search": "Vyhľadať Domain"
+            },
+            "created": "Bol vytvorený potomok entity Domain s identifikátorom {{ param }}",
+            "updated": "Potomok entity Domain s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Domain s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Domain {{ id }}?"
+            },
+            "detail": {
+                "title": "Domain"
+            },
+            "metaData": "Meta Data",
+            "specifications": "Specifications"
+        }
+    }
+}

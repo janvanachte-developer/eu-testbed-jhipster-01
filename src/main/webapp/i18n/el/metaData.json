@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Δημιουργήστε ένα νέο Meta Data",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Meta Data",
+                "search": "Αναζήτηση για Meta Data"
+            },
+            "created": "Ένα νέο Meta Data έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Meta Data έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Meta Data έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Meta Data {{ id }};"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

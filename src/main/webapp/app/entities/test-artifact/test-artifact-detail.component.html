@@ -1,0 +1,47 @@
+
+<div *ngIf="testArtifact">
+    <h2><span jhiTranslate="testbedApp.testArtifact.detail.title">Test Artifact</span> {{testArtifact.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.testArtifact.name">Name</span></dt>
+        <dd>
+            <span>{{testArtifact.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testArtifact.type">Type</span></dt>
+        <dd>
+            <span>{{testArtifact.type}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testArtifact.encofing">Encofing</span></dt>
+        <dd>
+            <span>{{testArtifact.encofing}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testArtifact.uri">Uri</span></dt>
+        <dd>
+            <span>{{testArtifact.uri}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testArtifact.content">Content</span></dt>
+        <dd>
+            <span>{{testArtifact.content}}</span>
+        </dd>
+        <dt><span jhiTranslate="testbedApp.testArtifact.testStep">Test Step</span></dt>
+        <dd>
+            <div *ngIf="testArtifact.testStepId">
+                <a [routerLink]="['/test-step', testArtifact.testStepId]">{{testArtifact.testStepId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'test-artifact/'+ testArtifact.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

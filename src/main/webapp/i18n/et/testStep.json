@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Lisa uus Test Step",
+                "createOrEditLabel": "Lisa või muuda Test Step",
+                "search": "Otsi Test Step"
+            },
+            "created": "Uus Test Step on loodud identifikaatoriga {{ param }}",
+            "updated": "Test Step identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Test Step identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

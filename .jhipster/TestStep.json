@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "testCase",
+            "otherEntityName": "testCase",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "testArtifacts",
+            "otherEntityName": "testArtifact",
+            "otherEntityRelationshipName": "testStep"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20170708111000",
+    "entityTableName": "test_step",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "searchEngine": "elasticsearch"
+}

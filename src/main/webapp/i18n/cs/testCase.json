@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "Test Cases",
+                "createLabel": "Vytvořit Test Case",
+                "createOrEditLabel": "Vytvořit nebo upravit Test Case",
+                "search": "Vyhledat Test Case"
+            },
+            "created": "Byl vytvořen potomek entity Test Case s identifikátorem {{ param }}",
+            "updated": "Potomek entity Test Case s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Test Case s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Test Case {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "testArtifact" : {
+            "home": {
+                "title": "Test Artifacts",
+                "createLabel": "Creeare o nouă entitate Test Artifact",
+                "createOrEditLabel": "Creeare sau editare Test Artifact",
+                "search": "Căutare după Test Artifact"
+            },
+            "created": "A fost creată o nouă entitate Test Artifact cu identificatorul {{ param }}",
+            "updated": "Test Artifact cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Test Artifact cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Test Artifact {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Artifact"
+            },
+            "name": "Name",
+            "type": "Type",
+            "encofing": "Encofing",
+            "uri": "Uri",
+            "content": "Content",
+            "testStep": "Test Step"
+        }
+    }
+}

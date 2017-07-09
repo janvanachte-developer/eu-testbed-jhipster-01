@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "actor" : {
+            "home": {
+                "title": "Actors",
+                "createLabel": "Genera un nuovo Actor",
+                "createOrEditLabel": "Genera o modifica un Actor",
+                "search": "Cerca Actor"
+            },
+            "created": "&Egrave; stato generato un nuovo Actor con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Actor identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Actor con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Actor {{ id }}?"
+            },
+            "detail": {
+                "title": "Actor"
+            },
+            "name": "Name",
+            "description": "Description",
+            "endpoint": "Endpoint",
+            "testSuite": "Test Suite"
+        }
+    }
+}

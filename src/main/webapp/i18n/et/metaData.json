@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Lisa uus Meta Data",
+                "createOrEditLabel": "Lisa või muuda Meta Data",
+                "search": "Otsi Meta Data"
+            },
+            "created": "Uus Meta Data on loodud identifikaatoriga {{ param }}",
+            "updated": "Meta Data identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Meta Data identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Meta Data {{ id }}?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

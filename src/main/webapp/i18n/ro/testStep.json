@@ -1,0 +1,23 @@
+{
+    "testbedApp": {
+        "testStep" : {
+            "home": {
+                "title": "Test Steps",
+                "createLabel": "Creeare o nouă entitate Test Step",
+                "createOrEditLabel": "Creeare sau editare Test Step",
+                "search": "Căutare după Test Step"
+            },
+            "created": "A fost creată o nouă entitate Test Step cu identificatorul {{ param }}",
+            "updated": "Test Step cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Test Step cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Test Step {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Step"
+            },
+            "testCase": "Test Case",
+            "testArtifacts": "Test Artifacts"
+        }
+    }
+}

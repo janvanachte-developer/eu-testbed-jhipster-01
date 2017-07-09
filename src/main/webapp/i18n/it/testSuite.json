@@ -1,0 +1,25 @@
+{
+    "testbedApp": {
+        "testSuite" : {
+            "home": {
+                "title": "TestSuites",
+                "createLabel": "Genera un nuovo Test Suite",
+                "createOrEditLabel": "Genera o modifica un Test Suite",
+                "search": "Cerca Test Suite"
+            },
+            "created": "&Egrave; stato generato un nuovo Test Suite con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Test Suite identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Test Suite con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Test Suite {{ id }}?"
+            },
+            "detail": {
+                "title": "Test Suite"
+            },
+            "specification": "Specification",
+            "metaData": "Meta Data",
+            "actors": "Actors",
+            "testCases": "Test Cases"
+        }
+    }
+}

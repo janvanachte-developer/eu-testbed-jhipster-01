@@ -1,0 +1,27 @@
+{
+    "testbedApp": {
+        "metaData" : {
+            "home": {
+                "title": "Meta Data",
+                "createLabel": "Maak een nieuwe Meta Data",
+                "createOrEditLabel": "Maak of wijzig een Meta Data",
+                "search": "Search for Meta Data"
+            },
+            "created": "A new Meta Data is created with identifier {{ param }}",
+            "updated": "A Meta Data is updated with identifier {{ param }}",
+            "deleted": "A Meta Data is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bent u zeker dat u Meta Data {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Meta Data"
+            },
+            "name": "Name",
+            "version": "Version",
+            "authors": "Authors",
+            "description": "Description",
+            "published": "Published",
+            "lastModified": "Last Modified"
+        }
+    }
+}

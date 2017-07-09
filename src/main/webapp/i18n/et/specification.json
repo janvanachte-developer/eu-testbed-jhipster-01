@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Lisa uus Specification",
+                "createOrEditLabel": "Lisa või muuda Specification",
+                "search": "Otsi Specification"
+            },
+            "created": "Uus Specification on loodud identifikaatoriga {{ param }}",
+            "updated": "Specification identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Specification identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Specification {{ id }}?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}

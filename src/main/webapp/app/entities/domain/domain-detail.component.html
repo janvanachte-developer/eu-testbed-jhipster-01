@@ -1,0 +1,27 @@
+
+<div *ngIf="domain">
+    <h2><span jhiTranslate="testbedApp.domain.detail.title">Domain</span> {{domain.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="testbedApp.domain.metaData">Meta Data</span></dt>
+        <dd>
+            <div *ngIf="domain.metaDataId">
+                <a [routerLink]="['/meta-data', domain.metaDataId]">{{domain.metaDataId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'domain/'+ domain.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

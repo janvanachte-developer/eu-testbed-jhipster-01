@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "testCase" : {
+            "home": {
+                "title": "TestCases",
+                "createLabel": "Egy új Test Case létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Test Caset",
+                "search": "Test Case keresése"
+            },
+            "created": "Egy új Test Case lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Test Case módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Test Case törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Test Caset {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Test Case"
+            },
+            "testSuite": "Test Suite",
+            "metaData": "Meta Data",
+            "steps": "Steps"
+        }
+    }
+}

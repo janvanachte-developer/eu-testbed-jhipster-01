@@ -1,0 +1,24 @@
+{
+    "testbedApp": {
+        "specification" : {
+            "home": {
+                "title": "Specifications",
+                "createLabel": "Egy új Specification létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Specificationt",
+                "search": "Specification keresése"
+            },
+            "created": "Egy új Specification lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Specification módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Specification törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Specificationt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Specification"
+            },
+            "domain": "Domain",
+            "metaData": "Meta Data",
+            "testSuites": "Test Suites"
+        }
+    }
+}
